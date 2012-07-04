@@ -80,7 +80,8 @@ set formatoptions=n
 " check to make sure vim has been compiled with colorcolumn support
 " before enabling it
 if exists("+colorcolumn")
-  " set colorcolumn=80
+  set colorcolumn=+1
+  hi ColorColumn ctermbg=LightGrey
 endif
 
 "  ---------------------------------------------------------------------------
