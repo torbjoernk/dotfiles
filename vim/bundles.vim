@@ -24,7 +24,7 @@ Bundle 'sjl/gundo.vim'
 
 "***
 " Git integration
-Bundle 'git.zip'
+Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-fugitive'
 
 "***

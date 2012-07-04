@@ -77,6 +77,9 @@ set wrap
 set textwidth=80
 set formatoptions=n
 
+" Git commit messages should be no longer than 72 characters per line
+au FileType gitcommit set tw=72
+
 " check to make sure vim has been compiled with colorcolumn support
 " before enabling it
 if exists("+colorcolumn")
